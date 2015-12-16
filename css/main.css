@@ -1,13 +1,1 @@
-p {
-	color: red;
-}
-a {
-	color: blue;
-}
-body {
-	background-color: #86C539
-}
-body h1{
-	color: green
-	text-align: center
-}
+/*all link with this font*/body h2 a, body p a , body ul a{	color: darkgoldenrod;    font-family: 'Poiret One', cursive;}body {    background-color: #fde2ba;    color: seagreen;	    font-family: 'Slabo 27px', serif;    font-size: 15pt;	    padding: 0px;    margin: 5px;}h2{    text-align: center;}h1 {    font-family: 'Righteous', cursive;	text-align: center;    letter-spacing: 30px;    font-size: 40px;	color: #f8b74a;		border-style: ridge;	border-width: 6px;	margin-left: 10%;	margin-right: 10%;	padding-top: 5%;	padding-bottom: 5%;}nav{    text-align: center;    font-size: 14px;    margin:15px auto;/*cause left and right dont have Float elements*/    clear: both;}nav ul{    margin: 0px;    padding: 0px;    list-style-type: none;	min-height: 100%;}nav ul li{    float: left;}nav ul li a{    text-decoration: none;    color: #666;    background: url(../images/menubg.gif) no-repeat 0px 0px;    width: 100px;    line-height: 20px;    display: block;		transition: color 2s;	transition: background-color 2s;}nav ul li a:hover{    color: #CC0000;    background: url(../images/menubg.gif) no-repeat 0px -20px;}.active {	color: #ff7a45;}#mainContent {	margin-left: 150px;	margin-right: 75px;	padding-left: 25px;}#mainContent h2 a{    border-style: dashed;	border-width: 2px;	margin-left: 10%;	margin-right: 10%;}.centerMe {	display: block;	margin-left: auto;	margin-right: auto;}img {	max-width: 100%;	height: auto;    margin-bottom: 50px;/*means is same as its name*/    opacity:0.7;}img:hover{    opacity:1.0;}/*what happened when the screen became smaller*/@media screen and (max-width: 800px) {	#mainContent {		margin-left: 2%;		margin-right: 2%;				padding-left: 0;		padding-top: 10px;	}	h1{        font-size: 20px;	}	}
